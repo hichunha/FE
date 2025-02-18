@@ -1,0 +1,65 @@
+@import "../variable.css";
+.container_banner {
+  height: 400px;
+  padding-top: 20px;
+  width: 100%;
+  background: linear-gradient(
+    90.97deg,
+    rgba(105, 58, 240, 0.06) 0.08%,
+    rgba(242, 62, 170, 0.06) 100%
+  );
+}
+.container_content_banner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.content_banner {
+  display: flex;
+  justify-content: space-between;
+}
+.text_banner {
+  font-family: Archivo;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 68px;
+  letter-spacing: 0%;
+  color: var(--On-Surface);
+  max-width: 630px;
+}
+.img_banner {
+  width: 447px;
+  height: 307px;
+}
+@media screen and (max-width: 1300px) {
+  .container_content_banner {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 955px) {
+  .text_banner {
+    font-size: 44px;
+    line-height: 56px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .text_banner {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .img_banner {
+    width: 414px;
+  }
+  .item_events {
+    min-width: 353px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .content_banner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_banner {
+    height: fit-content;
+  }
+}

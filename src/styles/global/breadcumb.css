@@ -1,0 +1,25 @@
+@import "../variable.css";
+.breadcrumb {
+  font-size: 16px;
+}
+
+.breadcrumb_home {
+  text-decoration: none;
+  font-family: Archivo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--On-Surface);
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+.breadcrumb_secondary {
+  font-family: Archivo;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: var(--Secondary);
+}
