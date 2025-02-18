@@ -101,6 +101,10 @@ const Events = () => {
           <div className="item_events" key={event.id}>
             <div className="container_img_item">
               <img src={event.image} className="img_item_events" />
+              <div className="overlay">
+                <p className="text_day">8</p>
+                <p className="text_month">DEC</p>
+              </div>
             </div>
             <div className="item_content">
               <p className="text_title_item">{event.name}</p>
